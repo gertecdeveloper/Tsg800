@@ -1,0 +1,15 @@
+<resources>
+    <style parent="@android:style/Theme.Black.NoTitleBar" name="LaunchTheme">
+    <!-- Show a splash screen on the activity. Automatically removed whenFlutter draws its first frame -->
+    <item name="android:windowBackground">@drawable/launch_background</item>
+
+</style>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+</resources>

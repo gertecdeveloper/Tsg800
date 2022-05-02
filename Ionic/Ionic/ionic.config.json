@@ -1,0 +1,7 @@
+{
+  "name": "GertecIonic800",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

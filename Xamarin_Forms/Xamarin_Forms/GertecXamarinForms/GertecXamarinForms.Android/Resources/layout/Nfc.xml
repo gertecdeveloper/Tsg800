@@ -1,0 +1,70 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="16dp">
+    
+
+    
+    <EditText
+        android:id="@+id/editMensagemPadrao"
+        android:layout_width="match_parent"
+        android:imeOptions="actionGo"
+        android:hint="Mensagem para gravar cartão"
+        android:inputType="text"
+        android:textSize="14dp"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:background="#25AAFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@android:color/white"
+        android:padding="5dp"
+        android:id="@+id/btnRecord"
+        android:text="GRAVAÇÃO NO CARTÃO"
+    />
+    <Button
+        android:background="#25AAFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@android:color/white"
+        android:padding="5dp"
+        android:id="@+id/btnRead"
+        android:text="LER CARTÃO"
+    />
+    <Button
+        android:background="#25AAFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@android:color/white"
+        android:padding="5dp"
+        android:id="@+id/btnFormat"
+        android:text="FORMATAR CARTÃO"
+    />
+    <Button
+        android:background="#25AAFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@android:color/white"
+        android:padding="5dp"
+        android:id="@+id/btnTest"
+        android:text="TESTE LEITURA/GRAVAÇÃO"
+    />
+
+    
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<ion-content [fullscreen]="true">
+  <ion-grid class="nfc-class">
+    <ion-row>
+      <ion-col>
+        <ion-item class="input-item">
+          <ion-label position="floating">Mensagem para gravar no cartão</ion-label>
+          <ion-input type="text" [(ngModel)]="mensagem" id="mensagem"></ion-input>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+    <div class="botoes">
+      <ion-row>
+        <ion-col>
+          <ion-button (click)="gravarNfc()" color="primary" expand="full">Gravar no cartão</ion-button>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <ion-button (click)="lerNfc()" color="primary" expand="full">Ler cartão</ion-button>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <ion-button (click)="formatarNfc()" color="primary" expand="full">Formatar cartão</ion-button>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <ion-button (click)="testeNfc()" color="primary" expand="full">Teste Leitura/Gravação</ion-button>
+        </ion-col>
+      </ion-row>
+    </div>
+  </ion-grid>
+</ion-content>
+  
+  

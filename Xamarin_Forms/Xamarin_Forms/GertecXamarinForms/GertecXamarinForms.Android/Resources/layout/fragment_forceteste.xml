@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/message_write_read_tag"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="@dimen/design_bottom_navigation_icon_size"
+    />
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/abc_floating_window_z"
+        android:src="@drawable/ic_nfc"
+        android:tint="@android:color/holo_blue_dark"
+    />
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:visibility="gone"
+    />
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/fastscroll_default_thickness"
+        android:enabled="true"
+        android:layout_gravity="center"
+        android:text="Aproxime o cartão"
+        android:textSize="@dimen/abc_text_size_body_1_material"
+        android:textStyle="bold"
+        android:visibility="visible"
+        tools:visibility="visible"
+    />
+    <EditText
+        android:id="@+id/editProcesso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="30"
+        android:enabled="false"
+        android:gravity="start"
+        android:inputType="textMultiLine"
+        android:textSize="12sp"
+    />
+
+</LinearLayout>
