@@ -76,7 +76,7 @@ class _PageAtivarSatState extends State<PageAtivarSat> {
               SizedBox(height: 20),
               SizedBox(
                 width: 240,
-                child: RaisedButton(
+                child: ElevatedButton(
                   child: Text("ATIVAR"),
                   onPressed: () {
                     ativarSat();

@@ -174,7 +174,7 @@ class _Imprimir extends State<Imprimir> {
               ),
               SizedBox(
                 width: 300,
-                child: RaisedButton(
+                child: ElevatedButton(
                   child: Text("STATUS IMPRESSORA"),
                   onPressed: () {
                     checarImpressora().then((value) {
@@ -234,8 +234,7 @@ class _Imprimir extends State<Imprimir> {
                 children: <Widget>[
                   SizedBox(
                     width: ScreenUtil.instance.setWidth(110),
-                    child: RaisedButton(
-                      color: listSelecionado[0] ? Colors.blue : Colors.grey,
+                    child: ElevatedButton(
                       onPressed: () {
                         setState(() {
                           listSelecionado[0] = !listSelecionado[0];
@@ -249,14 +248,12 @@ class _Imprimir extends State<Imprimir> {
                   ),
                   SizedBox(
                     width: ScreenUtil.instance.setWidth(110),
-                    child: RaisedButton(
-                      color: listSelecionado[1] ? Colors.blue : Colors.grey,
+                    child: ElevatedButton(
                       onPressed: () {
                         setState(() {
                           listSelecionado[1] = !listSelecionado[1];
                         });
                       },
-                      disabledTextColor: Colors.black87,
                       child: Text(
                         "ITÁLICO",
                         style: TextStyle(fontSize: ScreenUtil.instance.setSp(12)),
@@ -265,14 +262,12 @@ class _Imprimir extends State<Imprimir> {
                   ),
                   SizedBox(
                     width: ScreenUtil.instance.setWidth(110),
-                    child: RaisedButton(
-                      color: listSelecionado[2] ? Colors.blue : Colors.grey,
+                    child: ElevatedButton(
                       onPressed: () {
                         setState(() {
                           listSelecionado[2] = !listSelecionado[2];
                         });
                       },
-                      disabledTextColor: Colors.black87,
                       child: Text(
                         "SUBLINHADO",
                         style: TextStyle(fontSize: ScreenUtil.instance.setSp(12)),
@@ -341,7 +336,7 @@ class _Imprimir extends State<Imprimir> {
                 children: <Widget>[
                   SizedBox(
                     width: 150,
-                    child: RaisedButton(
+                    child: ElevatedButton(
                       child: Text(
                         'IMPRIMIR TEXTO',
                         style: TextStyle(fontSize: 12),
@@ -361,7 +356,7 @@ class _Imprimir extends State<Imprimir> {
                   ),
                   SizedBox(
                     width: 150,
-                    child: RaisedButton(
+                    child: ElevatedButton(
                       child: Text(
                         'IMPRIMIR IMAGEM',
                         style: TextStyle(fontSize: 12),
@@ -456,7 +451,7 @@ class _Imprimir extends State<Imprimir> {
               ),
               SizedBox(
                 width: 300,
-                child: RaisedButton(
+                child: ElevatedButton(
                   child: Text(
                     'IMPRIMIR BARCODE',
                     style: TextStyle(fontSize: 15),
@@ -475,7 +470,7 @@ class _Imprimir extends State<Imprimir> {
               ),
               SizedBox(
                 width: 300,
-                child: RaisedButton(
+                child: ElevatedButton(
                   child: Text(
                     'IMPRIMIR TODAS FUNÇÕES',
                     style: TextStyle(fontSize: 15),

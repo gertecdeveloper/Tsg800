@@ -102,7 +102,7 @@ class _PageSatState extends State<PageSat> {
   Widget button(String text, VoidCallback voidCallback) {
     return SizedBox(
       width: 240,
-      child: RaisedButton(
+      child: ElevatedButton(
         child: Text(text),
         onPressed: voidCallback,
       ),

@@ -80,7 +80,7 @@ class _PageTesteSatState extends State<PageTesteSat> {
             ),
           ),
           actions: <Widget>[
-            FlatButton(
+            TextButton(
               child: Text("Ok"),
               onPressed: () {
                 if (textEditingController.text.length > 0) {

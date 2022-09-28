@@ -64,7 +64,7 @@ class _CodigoDeBarrav1 extends State<CodigoDeBarrav1> {
               children: [
                 SizedBox(
                   width: ScreenUtil.instance.setWidth(100),
-                  child: RaisedButton(
+                  child: ElevatedButton(
                     child: Text(
                       'EAN 8',
                       style: TextStyle(fontSize: ScreenUtil.instance.setSp(15), color: Colors.red),
@@ -76,7 +76,7 @@ class _CodigoDeBarrav1 extends State<CodigoDeBarrav1> {
                 ),
                 SizedBox(
                   width: ScreenUtil.instance.setWidth(100),
-                  child: RaisedButton(
+                  child: ElevatedButton(
                     child: Text(
                       'EAN 13',
                       style: TextStyle(fontSize: ScreenUtil.instance.setSp(15), color: Colors.red),
@@ -88,7 +88,7 @@ class _CodigoDeBarrav1 extends State<CodigoDeBarrav1> {
                 ),
                 SizedBox(
                   width: ScreenUtil.instance.setWidth(100), // specific value
-                  child: RaisedButton(
+                  child: ElevatedButton(
                     child: Text(
                       'EAN 14',
                       style: TextStyle(fontSize: ScreenUtil.instance.setSp(15), color: Colors.red),
@@ -100,7 +100,7 @@ class _CodigoDeBarrav1 extends State<CodigoDeBarrav1> {
                 ),
                 SizedBox(
                   width: ScreenUtil.instance.setWidth(100), // specific value
-                  child: RaisedButton(
+                  child: ElevatedButton(
                     child: Text(
                       'QR CODE',
                       style: TextStyle(fontSize: ScreenUtil.instance.setSp(15), color: Colors.red),

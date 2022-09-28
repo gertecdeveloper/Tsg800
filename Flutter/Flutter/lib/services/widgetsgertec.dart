@@ -10,7 +10,7 @@ class WidgetsGertec extends StatelessWidget {
   static Widget buttonStandard(String text, {VoidCallback callback}) {
     return SizedBox(
       width: 240,
-      child: RaisedButton(
+      child: ElevatedButton(
         child: Text(text),
         onPressed: callback,
       ),
@@ -34,7 +34,7 @@ class WidgetsGertec extends StatelessWidget {
             ),
           ),
           actions: <Widget>[
-            FlatButton(
+            TextButton(
               child: Text("Ok"),
               onPressed: () {
                 Navigator.pop(context);

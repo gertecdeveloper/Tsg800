@@ -85,7 +85,7 @@ class _PageCodigoSatState extends State<PageCodigoSat> {
               SizedBox(height: 20),
               SizedBox(
                 width: 240,
-                child: RaisedButton(
+                child: ElevatedButton(
                   child: Text("ALTERAR"),
                   onPressed: () {
                     alterarCodigoSat();

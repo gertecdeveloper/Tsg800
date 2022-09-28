@@ -17,7 +17,7 @@
         android:required="true" />
     <application
         tools:replace="android:icon , android:label"
-        android:name="io.flutter.app.FlutterApplication"
+        android:name="${applicationName}"
         android:icon="@mipmap/gertec_one"
         android:label="GertecOne Flutter">
         <activity

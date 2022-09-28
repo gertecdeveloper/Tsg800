@@ -94,49 +94,45 @@ class _LeituraCartao extends State<LeituraCartao> {
             SizedBox(height: 20),
             SizedBox(
               width: MediaQuery.of(context).size.width - 30,
-              child: RaisedButton(
+              child: ElevatedButton(
                 onPressed: () => _gravarCartao(myController.text),
                 child: Text(
                   "GRAVAR NO CARTÃO",
                   style: TextStyle(color: Colors.white),
                 ),
-                color: Colors.blue,
               ),
             ),
             SizedBox(height: 20),
             SizedBox(
               width: MediaQuery.of(context).size.width - 30,
-              child: RaisedButton(
+              child: ElevatedButton(
                 onPressed: () => _lerCartao(),
                 child: Text(
                   "LER CARTÃO",
-                  style: TextStyle(color: Colors.white),
+                  style: TextStyle(color: Colors.black),
                 ),
-                color: Colors.blue,
               ),
             ),
             SizedBox(height: 20),
             SizedBox(
               width: MediaQuery.of(context).size.width - 30,
-              child: RaisedButton(
+              child: ElevatedButton(
                 onPressed: () => _formatarCartao(),
                 child: Text(
                   "FORMATAR CARTÃO",
                   style: TextStyle(color: Colors.white),
                 ),
-                color: Colors.blue,
               ),
             ),
             SizedBox(height: 20),
             SizedBox(
               width: MediaQuery.of(context).size.width - 30,
-              child: RaisedButton(
+              child: ElevatedButton(
                 onPressed: () => _testeCartao(),
                 child: Text(
                   "TESTE LEITURA/GRAVAÇÃO",
                   style: TextStyle(color: Colors.white),
                 ),
-                color: Colors.blue,
               ),
             ),
           ],
